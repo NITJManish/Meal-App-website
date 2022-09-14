@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/index.css">
+    <title>Meal App</title>
+</head>
+<body>
+    <!-- main div -->
+    <div id="main-cnt">
+        <header>
+            <div>
+                 <!-- logo -->
+                <h2><a href="#"><i class='fas fa-hamburger' style='font-size:28px;color:blue'></i></a></h2>
+                <h2><a href="index.html"><i class="fa fa-home"></i></a></h2>
+                <h2><a href="fav.html"><i class="material-icons">favorite</i></a></h2>
+            </div>
+        </header>
+        <marquee id="mar" direction="right" height="20" width="200" bgcolor="white">Art By Manish</marquee>
+        <div id="container">
+            <div id="take-srch">
+                <!-- search bar -->
+                <input type="text" id="search-bar" placeholder="Enter Your Meal Name">
+                <!-- button -->
+                <button id="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            <!-- important instrction -->
+            <div id="impt">
+                <marquee direction="right" behavior="alternate" style="color:white">  
+                    Search your Favourite meal to enter at least two charcter
+                    </marquee>  
+            </div>
+            <!-- Api meal list access -->
+            <ul id="meals-list">
+
+            </ul>
+        </div>
+    </div>
+    <!-- link external js code -->
+    <script src="Js/index.js"></script>
+</body>
+</html>
